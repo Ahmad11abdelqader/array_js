@@ -54,4 +54,24 @@ console.log(letters.join());
 // e,d ,c ,b,a
 
 console.log(letters.join('&'));
+// e&d &c &b&a
 
+let gun = ['mp4', 'akm', 'groza', 'f8', 'sniper z'];
+// console.log(gun.slice(0,3));
+let gun2 = gun.slice(0,3);
+console.log(gun2);
+console.log(gun.splice(0,1,'g8'))
+
+let people =['ahmad', 'khaled','mark','abdo'];
+console.log(people.sort());
+// 4) ['abdo', 'ahmad', 'khaled', 'mark']
+
+
+// nested Array
+const animal=[
+    ['lion','laguar']
+    ,
+    ['dogs','cat'],
+    ['chiken','fish']
+];
+console.log(animal);
